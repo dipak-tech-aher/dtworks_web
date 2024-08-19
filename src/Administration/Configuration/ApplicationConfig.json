@@ -1,0 +1,275 @@
+{
+    "faq": {
+      "isEnabled": false
+    },
+    "order": {
+      "enabled": true
+    },
+    "report": {
+      "isOuFilter": true,
+      "createdInteraction": {
+        "fields": [
+          "ouCode",
+          "deptCode",
+          "district",
+          "interactionId",
+          "interactionType",
+          "project",
+          "dateFrom",
+          "dateTo"
+        ]
+      },
+      "isDepartmentFilter": false
+    },
+    "profile": {
+      "enabled": true
+    },
+    "accounts": {
+      "enabled": true
+    },
+    "customer": {
+      "enabled": true
+    },
+    "helpDesk": {
+      "enabled": true
+    },
+    "register": {
+      "forAll": true
+    },
+    "services": {
+      "enabled": true
+    },
+    "interaction": {
+      "enabled": true,
+      "editInteraction": [
+        {
+          "roleId": [],
+          "isEnable": true,
+          "columnName": "techCompletionDate",
+          "departmentId": []
+        },
+        {
+          "roleId": [],
+          "isEnable": true,
+          "columnName": "dbCompletionDate",
+          "departmentId": []
+        },
+        {
+          "roleId": [],
+          "isEnable": true,
+          "columnName": "deployementDate",
+          "departmentId": []
+        },
+        {
+          "roleId": [],
+          "isEnable": true,
+          "columnName": "biCompletionDate",
+          "departmentId": []
+        },
+        {
+          "roleId": [],
+          "isEnable": true,
+          "columnName": "qaCompletionDate",
+          "departmentId": []
+        },
+        {
+          "roleId": [],
+          "isEnable": true,
+          "columnName": "isDownTimeRequired",
+          "departmentId": []
+        }
+      ],
+      "smartAssistance": true,
+      "for_other_option": true,
+      "for_register_unregister": true
+    },
+    "appointments": {
+      "enabled": false
+    },
+    "helpdesk_board": {
+      "enabled": true,
+      "interaction": true
+    },
+    "ON_USER_CREATION": {
+      "CREATE_CUSTOMER": {
+        "isActive": true
+      }
+    },
+    "deptWiseHelpdesk": {
+      "rolesToShow": [
+        1
+      ]
+    },
+    "helpdeskCreation": {
+      "inHelpdeskBoard": true
+    },
+    "internal_domains": [
+      "@comquest-brunei.com",
+      "@bahwancybertek.com"
+    ],
+    "intxnCreateByUser": false,
+    "helpdesk_dashboard": {
+      "customerComplaintScore": false,
+      "customerComplaintResolutionScore": false
+    },
+    "isManagerialAssign": {
+      "roleId": 12
+    },
+    "interaction_dashboard": {
+      "customerComplaintScore": false,
+      "customerComplaintResolutionScore": false
+    },
+    "operational_dashboard": {
+      "entities": [
+        "tasks",
+        "interaction",
+        "helpDesk"
+      ],
+      "helpDesk": {
+        "interactiveView": {
+          "assignedToMe": {
+            "isActive": true,
+            "HelpdeskOverview": true
+          },
+          "pooledInteractions": {
+            "isActive": true
+          },
+          "assignedInteractions": {
+            "isActive": true
+          }
+        }
+      },
+      "informativeView": {
+        "isActive": true,
+        "top5Orders": {
+          "isActive": false
+        },
+        "orderCorner": {
+          "isActive": false
+        },
+        "top5Performance": {
+          "byOrders": {
+            "isActive": false
+          },
+          "isActive": true,
+          "byAppointments": {
+            "isActive": false
+          },
+          "byInteractions": {
+            "isActive": true
+          }
+        },
+        "top5Interactions": {
+          "isActive": true
+        },
+        "topPerformerChat": {
+          "isActive": false
+        },
+        "interactionCorner": {
+          "isActive": true
+        },
+        "appointmentsCorner": {
+          "isActive": false
+        },
+        "topPerformanceActivity": {
+          "isActive": true
+        },
+        "teamCategoryPerformance": {
+          "isActive": false
+        }
+      },
+      "interactiveView": {
+        "isActive": true,
+        "assignedToMe": {
+          "isActive": true,
+          "orderOverview": false,
+          "requestOverview": false,
+          "interactionOverview": true
+        },
+        "pooledOrders": {
+          "isActive": false
+        },
+        "assignedOrders": {
+          "isActive": false
+        },
+        "pendingRequest": {
+          "isActive": false
+        },
+        "pooledInteractions": {
+          "isActive": true
+        },
+        "assignedInteractions": {
+          "isActive": true
+        },
+        "upcomingAppointments": {
+          "isActive": false,
+          "todaysAppointment": false,
+          "upcomingAppointment": false
+        }
+      }
+    },
+    "QAFormRole": {
+        "roleId": [
+          {
+            "id": 32,
+            "isRead": true,
+            "isEnabled": true
+          },
+          {
+            "id": 31,
+            "isRead": true,
+            "isEnabled": true
+          },
+          {
+            "id": 30,
+            "isRead": true,
+            "isEnabled": true
+          },
+          {
+            "id": 29,
+            "isRead": true,
+            "isEnabled": true
+          },
+          {
+            "id": 28,
+            "isRead": true,
+            "isEnabled": true
+          },
+          {
+            "id": 27,
+            "isRead": false,
+            "isEnabled": true
+          },
+          {
+            "id": 26,
+            "isRead": false,
+            "isEnabled": true
+          }
+        ]
+      },
+      "Customer 360": {
+        "lable": "Profile 360",
+        "sectionConfigs": {
+          "Invoice": false,
+          "Pay Now": false,
+          "Accounts": false,
+          "Contract": false,
+          "Products": false,
+          "Data Usage": false,
+          "Attachments": false,
+          "Appointments": false,
+          "Interactions": {
+            "Payment": false,
+            "Help Desk": true,
+            "Work Order": false,
+            "Interaction": true
+          },
+          "Service Expiry": false,
+          "Billing Address": false,
+          "Billing Summary": false,
+          "Recent Activity": false,
+          "Billing Properties": false,
+          "Upcoming Appointment": false
+        }
+      }
+  }
